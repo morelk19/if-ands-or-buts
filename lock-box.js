@@ -4,7 +4,7 @@ let pinCode = '1234';
 
 let pinEntry = Number(prompt("Enter your pin: "));
 
-if(pinCode === pinEntry){
+if(pinEntry === pinCode){
     console.log("Success!");
 }else{
     console.log("Failure!");    
